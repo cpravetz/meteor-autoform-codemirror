@@ -17,8 +17,10 @@ Schemas.myCode = new SimpleSchema({
   functionText: {
     type: String,
     autoform: {
-      type: 'code'
-	  
+      type: 'code',
+      extensions: { 
+                //add any custom settings here
+                }
     }
   }
 });
